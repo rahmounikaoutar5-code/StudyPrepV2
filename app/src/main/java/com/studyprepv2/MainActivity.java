@@ -1,11 +1,13 @@
 package com.studyprepv2;
 
-/**
- * Point de départ de l'application StudyPrepV2
- */
-public class MainActivity {
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
 
-    public static void main(String[] args) {
-        System.out.println("StudyPrepV2 started");
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
     }
 }
